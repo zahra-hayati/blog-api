@@ -17,7 +17,7 @@ export class CommentService {
   ) {}
 
   async create(postId: string, dto: CreateCommentDto, userId: string) {
-    this.logger.log('Creating comment', { userId, postId });
+    this.logger.info('Creating comment', { userId, postId });
 
     const post = await this.prisma.post.findUnique({
       where: { id: postId },
@@ -47,7 +47,7 @@ export class CommentService {
     const { page, limit, search } = query;
     const pageNumber = Number(page) || 1;
     const limitNumber = Number(limit) || 10;
-    this.logger.log('Fetching comments', { postId, page });
+    this.logger.info('Fetching comments', { postId, page });
 
     const where: Prisma.CommentWhereInput = {
       postId,
