@@ -14,7 +14,7 @@
 ## ⚙️ Setup
 
 ```bash
-npm install
+pnpm install
 ```
 
 ---
@@ -50,7 +50,7 @@ npx prisma db seed
 ## ▶️ Run Application
 
 ```bash
-npm run start:dev
+pnpm run start:dev
 ```
 
 ---
@@ -117,13 +117,13 @@ POST /auth/logout
 Unit Tests
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 E2E Tests
 
 ```bash
-npm run test:e2e
+pnpm run test:e2e
 ```
 
 ---
