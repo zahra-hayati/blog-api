@@ -112,16 +112,6 @@ POST /auth/logout
 
 ---
 
-## 🧪 Testing
-
-E2E Tests
-
-```bash
-pnpm run test:e2e
-```
-
----
-
 ## 📁 Project Structure
 
 ```bash
