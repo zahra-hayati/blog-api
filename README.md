@@ -114,12 +114,6 @@ POST /auth/logout
 
 ## 🧪 Testing
 
-Unit Tests
-
-```bash
-pnpm run test
-```
-
 E2E Tests
 
 ```bash
